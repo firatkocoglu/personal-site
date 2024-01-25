@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'Regular';
+  src: local('ChakraPetch-Regular'),
+    url('./fonts/ChakraPetch-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Dancing';
+  src: local('DancingScript-Regular'),
+    url('./fonts/DancingScript-Regular.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Regular';
+  color: white;
+  background-image: url('./assets/images/background/background.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+a > span {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+a > span:hover {
+  color: #b19d9d;
+}
+
+svg > path {
+  color: white;
+  transition: fill 0.5s ease;
+}
+
+svg:hover path {
+  fill: #b19d9d;
+  color: white;
+}
+
+.navbar-toggler {
+  color: white;
+}
+
+/* HOME SECTION */
+
+/* HOME SECTION */
+
+/* SKILLS SECTION */
+.skill {
+  border-radius: 10px;
+  background-color: #6c757d;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.languages ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.languages ul > li {
+  list-style: none;
+  background-color: #6c757d;
+  margin: 0px;
+  margin-bottom: 10px;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.certificate {
+  border-radius: 10px;
+  background-color: #6c757d;
+  padding: 10px;
+  transition: background-color ease 0.5s;
+}
+
+.certificate:hover {
+  background-color: #5d656d;
+  color: beige;
+}
+
+/* SKILLS SECTION */
+
+/* PROJECTS SECTION */
+.project {
+  border: 1.5px solid #f5f5f5;
+  border-radius: 10px;
+}
+
+.project:hover {
+  cursor: pointer;
+  border: 1.5px solid darkgray;
+  background-color: rgba(97, 105, 97, 0.5);
+}
+
+.project-image:hover {
+  cursor: pointer;
+}
+/* PROJECTS SECTION */
