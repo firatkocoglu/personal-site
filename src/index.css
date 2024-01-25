@@ -20,6 +20,10 @@ body {
   background-size: cover;
 }
 
+a {
+  text-decoration: none;
+}
+
 a > span {
   color: white;
   transition: color 0.3s ease;
