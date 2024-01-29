@@ -1,7 +1,6 @@
 import { Row, Col } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 
-const Certificates = ({ certificates }) => {
+const Skills = ({ skills, languages }) => {
   return (
     <>
       <Row
@@ -50,26 +49,44 @@ const Certificates = ({ certificates }) => {
             className='ms-3'
             style={{ fontSize: '1.4em', fontWeight: 'bold' }}
           >
-            Certificates
+            Skills
           </span>
         </div>
-        <Col className='mb-3'>
+        <div>
           <p>
-            Here, you can see the list of the courses that I completed. The
-            certificates can be verified by clicking on them.
+            These are the tools that I use when I build a full-stack web
+            application. I used to prefer Node.js while designing APIs. But
+            after I complete Meta Back-End Developer course offered by Meta on
+            Coursera, I really liked how fast APIs can be built with using
+            Django and Django Rest Framework together. However, since I'm
+            confident with JavaScript and Node.js, Node.js is still one of my
+            favorite tools.
           </p>
-        </Col>
+        </div>
+        {skills.map((skill) => {
+          return (
+            <Col xs={6} lg={2} className='mb-4'>
+              <span className='skill'>{skill}</span>
+            </Col>
+          );
+        })}
         <Row>
+          <Col className='mb-2'>
+            I am also confident with speaking these languages:
+          </Col>
+        </Row>
+        <Row className='languages'>
           <Col>
-            {certificates.map((certificate) => {
-              return (
-                <Row className='mb-4' style={{ width: 'fit-content' }}>
-                  <Link to={certificate.url} target='_blank'>
-                    <span className='certificate'>{certificate.title}</span>
-                  </Link>
-                </Row>
-              );
-            })}
+            <ul>
+              {languages.map((language) => {
+                return (
+                  <li key={language.id}>
+                    <span>{language.lang} - </span>
+                    <span>{language.level}</span>
+                  </li>
+                );
+              })}
+            </ul>
           </Col>
         </Row>
       </Row>
@@ -77,4 +94,4 @@ const Certificates = ({ certificates }) => {
   );
 };
 
-export default Certificates;
+export default Skills;

@@ -5,6 +5,12 @@
 }
 
 @font-face {
+  font-family: 'Bold-Italic';
+  src: local('ChakraPetch-BoldItalic'),
+    url('./fonts/ChakraPetch-BoldItalic.ttf') format(truetype);
+}
+
+@font-face {
   font-family: 'Dancing';
   src: local('DancingScript-Regular'),
     url('./fonts/DancingScript-Regular.ttf') format('truetype');
@@ -12,12 +18,24 @@
 
 body {
   font-family: 'Regular';
-  color: white;
-  background-image: url('./assets/images/background/background.jpg');
+  color: black;
+  border: 5px solid rgb(228, 222, 222);
+  border-radius: 20px;
+  box-shadow: 10px 5px;
+  border-top: none;
+  margin: 10px;
+  /* background-image: url('/assets/images/background/background-4.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: cover; */
+}
+
+.navbar {
+  background-color: rgb(228, 222, 222);
+  border: 5px solid rgb(228, 222, 222);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 a {
@@ -25,28 +43,30 @@ a {
 }
 
 a > span {
-  color: white;
+  color: black;
+  font-weight: bolder;
   transition: color 0.3s ease;
 }
 
 a > span:hover {
-  color: #b19d9d;
+  color: white;
 }
 
 svg > path {
-  color: white;
-  transition: fill 0.5s ease;
+  color: rgb(150, 141, 141);
+  transition: color 0.5s ease;
 }
 
 svg:hover path {
-  fill: #b19d9d;
-  color: white;
+  color: black;
 }
+
+/* HOME SECTION */
 
 /* SKILLS SECTION */
 .skill {
   border-radius: 10px;
-  background-color: #6c757d;
+  background-color: rgba(228, 222, 222);
   padding: 10px;
   margin-right: 10px;
 }
@@ -58,7 +78,7 @@ svg:hover path {
 
 .languages ul > li {
   list-style: none;
-  background-color: #6c757d;
+  background-color: rgba(228, 222, 222);
   margin: 0px;
   margin-bottom: 10px;
   width: fit-content;
@@ -68,7 +88,7 @@ svg:hover path {
 
 .certificate {
   border-radius: 10px;
-  background-color: #6c757d;
+  background-color: rgba(228, 222, 222);
   padding: 10px;
   transition: background-color ease 0.5s;
 }
@@ -80,10 +100,14 @@ svg:hover path {
 
 /* SKILLS SECTION */
 
+/* PROJECT CARD */
+
+/* PROJECT CARD */
+
 /* PROJECTS SECTION */
 .project {
-  border: 1.5px solid #f5f5f5;
-  border-radius: 10px;
+  /* border: 10px solid rgba(228, 222, 222); */
+  /* border-radius: 10px; */
 }
 
 .project:hover {
@@ -94,5 +118,11 @@ svg:hover path {
 
 .project-image:hover {
   cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .project-image {
+    display: none;
+  }
 }
 /* PROJECTS SECTION */

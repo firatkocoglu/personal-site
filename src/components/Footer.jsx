@@ -11,9 +11,7 @@ const Footer = () => {
         <Row>
           <Col lg={6}>
             <h3>Fırat Koçoğlu</h3>
-            <p style={{ color: 'lightgray' }}>
-              A Full-Stack Web Developer from Istanbul.
-            </p>
+            <p>A Full-Stack Web Developer from Istanbul.</p>
           </Col>
           <Col lg={6}>
             <Row className='align-items-center' style={{ height: '100%' }}>
