@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { Container, Form, Row, Col, Button } from 'react-bootstrap';
+import { Form, Row, Col, Button } from 'react-bootstrap';
 
 const Email = () => {
   const form = useRef();
@@ -36,7 +36,7 @@ const Email = () => {
       }}
     >
       <div
-        className='  button-container d-flex align-items-center gap-2 p-3 mb-3'
+        className='button-container d-flex align-items-center gap-2 p-3 mb-3'
         style={{
           backgroundColor: 'rgba(228, 222, 222)',
         }}
@@ -69,7 +69,7 @@ const Email = () => {
           }}
         ></div>
         <span
-          className='ms-3'
+          className='email-title ms-3'
           style={{ fontSize: '1.4em', fontWeight: 'bold' }}
         >
           Send Me An Email

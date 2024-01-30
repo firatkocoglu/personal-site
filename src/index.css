@@ -121,8 +121,12 @@ svg:hover path {
 }
 
 @media (max-width: 480px) {
-  .project-image {
+  .project-image,
+  .project-title,
+  .contact-title,
+  .email-title {
     display: none;
   }
 }
+
 /* PROJECTS SECTION */

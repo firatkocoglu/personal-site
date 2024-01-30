@@ -66,7 +66,7 @@ const ProjectCard = ({ project }) => {
           ></div>
           <div>
             <span
-              className='ms-3'
+              className='project-title ms-3'
               style={{ fontSize: '1.4em', fontWeight: 'bold' }}
             >
               {project.title}

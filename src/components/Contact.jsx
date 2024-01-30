@@ -1,4 +1,4 @@
-import { Container, Form, Row, Col, Button } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { FiGithub } from 'react-icons/fi';
 import { FaInstagram } from 'react-icons/fa';
@@ -52,7 +52,7 @@ const Contact = () => {
               }}
             ></div>
             <span
-              className='ms-3'
+              className='contact-title ms-3'
               style={{ fontSize: '1.4em', fontWeight: 'bold' }}
             >
               Contact
