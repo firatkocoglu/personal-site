@@ -117,7 +117,7 @@ export const certificates = [
   {
     id: 10,
     title: 'The Complete 2021 Web Development Bootcamp',
-    url: ' https://www.udemy.com/certificate/UC-917db008-98fa-4c8d-bb25-1f0cdbe8516a/',
+    url: 'https://www.udemy.com/certificate/UC-917db008-98fa-4c8d-bb25-1f0cdbe8516a/',
   },
 ];
 
