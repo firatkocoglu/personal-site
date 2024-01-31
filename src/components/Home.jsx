@@ -164,7 +164,7 @@ const Home = () => {
                 </Link>
               </Col>
               <Col xs={4} lg={6}>
-                <Link>
+                <Link to='/assets/files/resume.pdf' target='_blank' download>
                   <Button variant='outline-dark' size='lg'>
                     Download Resume
                   </Button>
