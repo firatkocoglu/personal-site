@@ -54,21 +54,14 @@ export const certificates = [
 ];
 
 export const skills = [
-  'HTML',
-  'CSS',
-  'Bootstrap',
+  'SQL',
   'JavaScript',
-  'Python',
-  'React',
-  'Django',
+  'Typescript',
   'Node.js',
-  'Express',
-  'PostgreSQL',
-  'MySQL',
-  'Rest APIs',
-  'Git',
-  'AWS',
-  'Wordpress',
+  'PHP',
+  'React',
+  'Python',
+  'Django',
 ];
 
 export const languages = [

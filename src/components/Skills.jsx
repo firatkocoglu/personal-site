@@ -55,12 +55,9 @@ const Skills = ({ skills, languages }) => {
         <div>
           <p>
             These are the tools that I use when I build a full-stack web
-            application. I used to prefer Node.js while designing APIs. But
-            after I complete Meta Back-End Developer course offered by Meta on
-            Coursera, I really liked how fast APIs can be built with using
-            Django and Django Rest Framework together. However, since I'm
-            confident with JavaScript and Node.js, Node.js is still one of my
-            favorite tools.
+            application. My main tools are Node.js with Typescript. I&apos;m
+            confident with PHP development. Additionally, I feel comfortable
+            working across the full stack when needed.
           </p>
         </div>
         {skills.map((skill) => {

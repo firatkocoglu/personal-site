@@ -62,18 +62,17 @@ const About = () => {
             <Row>
               <Col>
                 <p>
-                  My full name is Fırat Koçoğlu. I'm a self-taught full-stack
-                  web developer located in Istanbul. I have bachelors degree in
-                  industrial engineering and masters degree in economics.
-                  However, since I'm always keen on learning software
-                  development and interested in tech industry, I decided to
-                  switch careers to software engineering. Therefore in mid 2021
-                  I started with learning the basics of web development. Then, I
+                  My full name is Fırat Koçoğlu. I&apos;m a self-taught
+                  full-stack web developer located in Istanbul. I have bachelors
+                  degree in industrial engineering and masters degree in
+                  economics. However, since I&apos;m always keen on learning
+                  software development and interested in tech industry, I
+                  decided to switch careers to software engineering. Therefore I
+                  started with learning the basics of web development. Then, I
                   took various courses specialized in different aspects of web
                   development. Thanks to all those learnings, now I can build
-                  full-stack web applications. Currently I'm looking for my
-                  first full time developer role. In the meantime I keep
-                  improving my developer skills.
+                  full-stack web applications. In the meantime I keep improving
+                  my developer skills.
                 </p>
               </Col>
             </Row>

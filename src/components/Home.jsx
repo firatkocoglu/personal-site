@@ -145,13 +145,14 @@ const Home = () => {
               </Row>
               <Row>
                 <p style={{ fontSize: '1.2rem' }}>
-                  Building software feels like magic and I love that feeling.
+                  With a strong focus on backend development, I work primarily
+                  with JavaScript (Node.js, React) and PHP.
                 </p>
               </Row>
               <Row>
                 <p style={{ fontSize: '1.2rem' }}>
-                  My go-to tools are React and Django. I also have experience
-                  with Node.js.
+                  I'm passionate about writing clean, maintainable code and
+                  building solutions that solve real problems.
                 </p>
               </Row>
             </div>
